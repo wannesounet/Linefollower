@@ -16,11 +16,11 @@ sensors: HY-S301
 
 batteries: 6x1,5V(AA) = 9V
 
-wireless communication:HC-05
+wireless communication: HC-05
 
-distance sensor - motors:
+distance sensor: /
 
-weight:
+weight: 0.303kg
 
-speed: 
+speed: /
 

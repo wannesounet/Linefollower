@@ -7,17 +7,17 @@ lege repository die je als template kan gebruiken om een eigen repository te sta
   
 ## specifications
 
-microcontroller:
+microcontroller: arduino nano
 
-motors: 
+motors: OT3545
 
-h-bridge:
+h-bridge: DRV8833
 
-sensors:
+sensors: HY-S301
 
-batteries:
+batteries: 6x1,5V(AA) = 9V
 
-wireless communication:
+wireless communication:HC-05
 
 distance sensor - motors:
 

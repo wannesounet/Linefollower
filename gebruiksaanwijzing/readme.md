@@ -14,11 +14,14 @@ Anders moet met nog maals gaan calibreren.
 0: stopt de auto
 
 ### kalibratie
-De kalibratie is nodig zodat de sensor weet welke de uiterste waarden zijn min en max, en past aan de hand daar van de gemeten waarden aan.
+De kalibratie is nodig zodat de sensor weet welke de uiterste waarden zijn min en max, en past aan de hand daar van de gemeten waarden aan. DIt wordt gedaan door middel van een programma die 10 seconden draait en die alle waarden op meet en daar van de min en de max opslaat. De bedoeling is dat je tijdens dit programma de meest donkere en lichte vlakken toont onder de sensoren, zo dat hij zijn uitersten kan opslaan.
 
 ### settings
 De robot rijdt stabiel met volgende parameters:  
-Speed: 65
+Speed:38
+Kp = 0.33;
+Ki = 0;
+Kd = 0.6;
 
 ### start/stop button
 Er is geen start/stop button aanwezig op de auto omdat dit niet gemakklijk is om te bedienen tijdens het beegen vna de robot. Daarom koos ik ervoor om te sturen via bluetooth.
